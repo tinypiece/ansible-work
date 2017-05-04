@@ -1,0 +1,7 @@
+- name: user check
+  user: name=ec2-user group=ec2-user
+  check_mode: yes
+
+- name: user check2
+  user: name=tinypiece group=tinypiece
+  check_mode: yes
