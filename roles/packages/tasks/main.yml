@@ -1,0 +1,8 @@
+- name: yum modules bind-utils latest
+  become: yes
+  yum: name=bind-utils state=latest
+
+- name: yum modules bind-utils present
+  become: yes
+  yum: name=bind-utils-9.8.2-0.47.rc1.52.amzn1.x86_64 state=present
+

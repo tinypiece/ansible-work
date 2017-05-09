@@ -2,3 +2,4 @@
   hosts: localhost
   roles: 
     - user_check
+    - packages
